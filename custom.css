@@ -1,0 +1,56 @@
+.search-box{
+	height: 400px;
+	width: 500px;
+	border: 3px dashed #000;
+	margin: 15px auto;
+	background: rgba(88,88,88,.1);
+	position: relative;
+}
+
+.dot-one{
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+	top: 312px;
+	left: 40px;
+}
+
+.atf{
+	min-height: 90vh;
+	background-image: url('img/jap-sushi.png');
+	color: white;
+}
+
+.title, .search, .atf-main{
+	border: 3px solid white;
+	width: 600px;
+	text-align: center;
+	background: rgba(133,133,133, .6);
+	margin: 9px auto;
+	padding: 10px 20px;
+}
+
+.search{
+	font-size: 28px;
+}
+
+.search-bar{
+	color: black;
+}
+
+
+.title h1{
+	margin: 10px 0;
+	font-size: 48px;
+}
+
+.main{
+	text-align: center;
+}
+
+.centered{
+	display: inline-block;
+	margin: 3px auto;
+}
